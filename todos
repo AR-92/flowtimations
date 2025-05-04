@@ -1,0 +1,95 @@
+make this projects approch to pure functional
+make this projects approch isomorphic as possible
+
+folders     : categorize all the folder structure very carefuly 
+files       : make files such that every file contains only one functionality
+entry point : design flow of the application
+basic       : start development with the flow of the applications
+demos       : make demos
+
+
+
+
+flowtimations/
+├── agents
+│   ├── agent.js
+│   ├── llmRouter.js
+│   └── voice.js
+├── code
+├── credentials
+├── data
+│   ├── apiRequest.js
+│   ├── directory.js
+│   ├── file.js
+│   ├── sqlData.js
+│   ├── url.js
+│   └── webHook.js
+├── dataBase
+├── documentation
+│   └── readme.md
+├── embeddings
+├── flows
+│   └── index.js
+├── helper
+│   ├── batchRunner.js
+│   ├── currentDate.js
+│   ├── idGenerator.js
+│   ├── index.js
+│   ├── readJsonFile.js
+│   ├── structuredOutput.js
+│   └── writeJsonFile.js
+├── index.js
+├── inputs
+│   ├── chatInput.js
+│   └── textInput.js
+├── integrations
+│   ├── google
+│   ├── paypal
+│   ├── stripe
+│   ├── telegram
+│   ├── twillio
+│   └── youtube
+├── logic
+│   ├── ifElse.js
+│   ├── listen.js
+│   ├── loop.js
+│   └── notify.js
+├── memory
+├── models
+│   └── groq.js
+├── outputs
+│   ├── chatOutput.js
+│   └── textOutput.js
+├── patterns
+├── processing
+│   ├── alterMetdata.js
+│   ├── combineText.js
+│   ├── data2text.js
+│   ├── dataCombiner.js
+│   ├── dataUpdate.js
+│   ├── filterData.js
+│   ├── filterValues.js
+│   ├── jsonCleaner.js
+│   ├── splitText.js
+│   └── text2data.js
+├── prompts
+│   └── promptInput.js
+├── rags
+│   └── lightRag
+│       └── index.js
+├── roughWork
+│   ├── chatbotData.json
+│   ├── chat.js
+│   ├── controllers.js
+│   ├── routes.js
+│   └── server.js
+├── todos
+├── tools
+│   ├── calculator.js
+│   ├── webSearch.js
+│   ├── wikipedia.js
+│   └── yahooFinance.js
+└── utils
+    ├── JSONEnforcer.js
+    ├── jsonSchemaChecker.js
+    └── jsonSchemaCorrector.js
